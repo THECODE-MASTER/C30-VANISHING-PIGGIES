@@ -70,9 +70,9 @@ function draw(){
 }
 
 function mouseDragged(){
-   if(gamestate==0){
+  
     Matter.Body.setPosition(bird.body, {x: mouseX , y: mouseY});
-   }
+  
 }
 
 
